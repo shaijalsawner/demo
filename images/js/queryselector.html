@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 class="intro">heading 1</h1>
+   <div id="div"> 
+    <p class="intro">pragraph 1</p>
+    <h1 class="intro">heading 2</h1>
+    <p>pragraph 2</p>
+    <h1 class="intro">heading 3</h1>
+    <p class="intro">pragraph 3</p>
+</div>
+  
+   <script>
+     let elm = document.querySelectorAll("h1.intro");
+  
+     console.log(elm);
+     for(let i=0;i < elm.length;i++){
+        elm[i].innerHTML = "hello";
+     }
+   </script>
+</body>
+</html>

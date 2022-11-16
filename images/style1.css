@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-image:url(../images/images/living-room-1835923_960_720.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 3px;;
+}
+ul li{
+    display: inline-block;
+    transition-delay: 2ms;
+}
+ul li a{
+    color:white;
+    padding: 5px 8px;
+}
+ul li:hover{
+    background-color:skyblue;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+.title h1{
+
+font-size: 60px;
+color: antiquewhite;
+}
+.footer{
+    background-color:black;
+  color:white;
+}
+.button{
+     position: absolute;
+     top: 65%;
+     left: 40%;
+     
+    
+}
+.btn{
+border: 1px solid black;
+padding: 10px 30px;
+color: white;
+
+}
+.btn:hover{
+background-color: skyblue;
+}
+.nav{
+    background-color: cornflowerblue;
+}

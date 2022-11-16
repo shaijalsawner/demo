@@ -1,0 +1,12 @@
+.container{
+    border: 10px solid black;
+
+    
+}
+.row{
+    margin-left: 2px;
+}
+#second-jumbo{
+    background: url(./pexels-pixabay-461940.jpg);
+    background-size: cover;
+}

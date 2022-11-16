@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <a href="./table.css"></a>
+
+</head>
+
+<body>
+  <label for="text">price</label>
+  <input id="price">
+  <label for="text">quantity</label>
+  <input id="quantity">
+  <label for="text">%</label>
+  <input id="discount">
+
+  <button onclick="getPrice()">Get total</button>
+
+  <input id="total">
+  <script>
+    getPrice = function () {
+      var price = Number(document.getElementById("price").value);
+      var quantity = Number(document.getElementById("quantity").value);
+      var discount = Number(document.getElementById("discount").value) / 100;
+      var totalValue = price - (quantity * discount)
+      document.getElementById("total").value = totalValue.toFixed(2);
+    }
+  </script>
+</body>
+
+</html>

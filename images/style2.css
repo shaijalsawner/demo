@@ -1,0 +1,53 @@
+/* #container{
+    border: 2px solid black;
+    height: auto;
+    
+}
+.row{
+    border: red;
+    margin-left: 10px;
+} */
+
+
+.container{
+    border: solid black;
+    width: 800000px;
+    height: 80000px;
+    background-image:url(./images/living-room-1835923_960_720.jpg);
+    background-repeat: no-repeat;
+}
+.container{
+    background-color:whitesmoke;
+}
+.col-md-6{
+    top: 50%;
+}
+.nav{
+    background-color: darkcyan;
+    height: 50px;
+   
+    
+}
+.nav item{
+    padding: 7px 10px;
+   
+}
+.nav link{
+    background-color: azure;
+   color: #fff;
+   margin-top: 5px;
+  
+}
+.nav link:hover
+.nav link a{
+    color: #fff;
+   background-color: sandybrown;
+}
+.footer{
+    background-color: darkcyan;
+    width: 100px;
+}
+.img{
+    background-repeat: no-repeat;
+    width: 100px;
+}
